@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    /*<ProjectGuid>aae8acf2-8896-4cb2-81d2-3ed29305eb30</ProjectGuid>*/
+    <ProjectGuid>aae8acf2-8896-4cb2-81d2-3ed29305eb30</ProjectGuid>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

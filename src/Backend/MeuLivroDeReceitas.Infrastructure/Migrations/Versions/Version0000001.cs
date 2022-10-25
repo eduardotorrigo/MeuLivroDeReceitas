@@ -16,9 +16,9 @@ public class Version0000001 : Migration
         var table = BaseVersion.InsertColumnBase(Create.Table("Usuario"));
 
         table
-             .WithColumn("Email").AsString(100).NotNullable()
-             .WithColumn("Telefone").AsString(16).NotNullable()
-             .WithColumn("Password").AsString(2000).NotNullable()
-             .WithColumn("CreateDate").AsDateTime().NotNullable();
+            .WithColumn("Nome").AsString(100).NotNullable()
+            .WithColumn("Email").AsString(100).NotNullable()
+            .WithColumn("Password").AsString(2000).NotNullable()
+            .WithColumn("Telefone").AsString(16).NotNullable();
     }
 }

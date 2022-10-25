@@ -8,6 +8,6 @@ public static class BaseVersion
     {
         return tableName
             .WithColumn("Id").AsInt32().PrimaryKey().Identity()
-            .WithColumn("Nome").AsString(100).NotNullable();
+            .WithColumn("DataCriacao").AsDateTime().NotNullable();
     }
 }
